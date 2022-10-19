@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-section{
+    background: url(./assets/bgk-header.png)no-repeat center ; 
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover;
+  
+   
+}
+.cover{
+    width: 900px;
+    height: 400px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box{
+    margin: 10px;
+    width: 400px;
+    height: 330px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid white;
+    
+
+}
+img{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    
+}
