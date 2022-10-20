@@ -104,9 +104,13 @@ li {
   position: relative;
   bottom: 2080px;
   left: 340px;
-  display: inline-block;
+  display: flexbox;
   height: 270px;
   width: 270px;
+  display: flexbox;
+  justify-content: flex-start;
+  position: relative;
+  flex-direction: column;
 }
 
 .button1 {
@@ -144,11 +148,16 @@ li {
 
 .watch {
   background: url(./assets/bgk-middle.png) no-repeat center;
-  height: 700px;
+  height: 600px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  display: flexbox;
+  justify-content: flex-end;
+  position: relative;
+  flex-direction: column;
+  bottom: 2000px;
 }
 .watch h2 {
   padding-top: 340px;
@@ -162,4 +171,6 @@ li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
 }
