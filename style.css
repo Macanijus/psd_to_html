@@ -1,176 +1,64 @@
-.container {
-  background-image: url(./assets/back.png);
-  width: 1501px;
-  height: 600px;
-  display: block;
-  margin-left: 100px;
-  margin-right: 100px;
+/* Contact client section starts */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-ul {
-  list-style-type: line;
-  margin-right: 200px;
-  color: white;
+.content-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
-li {
-  display: block;
-  color: bone;
-  text-align: center;
-  padding: 14px;
-  padding-top: 30px;
-  text-decoration: none;
-  font-size: 13px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  float: right;
+.content {
+    margin-left: 200px;
 }
 
-.creative {
-  color: white;
-  text-align: center;
-  font-family: "Abril Fatface", cursive;
-  font-size: 28px;
-  padding-top: 65px;
-  font-weight: lighter;
-}
-
-.first {
-  color: lightgray;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 14px;
-  text-align: center;
-  padding-left: 380px;
-  padding-right: 380px;
-  padding-top: 10px;
-  padding-bottom: 500px;
-  margin-bottom: 600px;
-}
-
-.line {
-  border-color: aqua;
-  width: 50px;
-}
-
-.logo {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 300px;
-  margin-bottom: 0px;
-  padding-top: 10px;
-}
-
-.button {
-  border: line 1px;
-  background-color: transparent;
-  border-color: aquamarine;
-  color: aquamarine;
-  line-height: 2.5;
-
-  position: relative;
-
-  font-size: 0.7rem;
-  text-align: center;
-  left: 700px;
-  top: -1050px;
-  border-radius: 3px;
-}
-
-.title {
-  left: 700px;
-  top: -750px;
-  position: relative;
-  font-family: "Abril Fatface", cursive;
-  font-size: 25px;
-  font-weight: lighter;
-}
-
-.p2 {
-  left: 700px;
-  top: -750px;
-  position: relative;
-  text-align: left;
-  color: grey;
-  padding-right: 980px;
-  padding-top: 10px;
-  padding-bottom: 500px;
-  margin-bottom: 600px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+.client {
+    margin-right: 200px;
 }
 
 .logo1 {
-  position: relative;
-  bottom: 2080px;
-  left: 340px;
-  display: flexbox;
-  height: 270px;
-  width: 270px;
-  display: flexbox;
-  justify-content: flex-start;
-  position: relative;
-  flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    width: -webkit-fill-available;
 }
 
-.button1 {
-  border: line 1px;
-  background-color: transparent;
-  border-color: turquoise;
-  color: turquoise;
-  line-height: 2.5;
-
-  padding-right: 15px;
-  padding-left: 15px;
-
-  position: relative;
-
-  font-size: 0.7rem;
-  text-align: center;
-  left: 700px;
-  top: -2080px;
-  border-radius: 3px;
+.client-logo {
+    margin: 20px 10px;
+    padding: 20px 10px;
 }
 
-.taj {
-  color: turquoise;
-  padding-left: 350px;
-  padding-bottom: 0px;
-  display: flexbox;
-  justify-content: flex-start;
-  position: relative;
-  flex-direction: column;
-  bottom: 63px;
-  font-family: "Quicksand", sans-serif;
-  font-size: 25px;
-  font-weight: lighter;
+input[type=text],
+input[type=email],
+textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
-.watch {
-  background: url(./assets/bgk-middle.png) no-repeat center;
-  height: 600px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: flexbox;
-  justify-content: flex-end;
-  position: relative;
-  flex-direction: column;
-  bottom: 2000px;
+input[type=submit] {
+    color: #45a049;
+    padding: 12px 20px;
+    border: 1px solid #45a049;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0;
 }
-.watch h2 {
-  padding-top: 340px;
-  padding-bottom: 300px;
-  text-align: center;
-  color: white;
+
+input[type=submit]:hover {
+    background-color: #32631a;
+    color: white;
 }
-.play-button {
-  display: block;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 200px;
-  height: 200px;
-}
+
+
+/* Contact client section end */
