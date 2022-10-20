@@ -88,3 +88,13 @@ img{
     text-align: center;
     padding-top: 1% ;
 }
+.paragraph::after{
+    content:'' ;
+    height: 2px;
+    width: 3%;
+    position: absolute;
+    background: lightgray;
+    left: 48%;
+    margin-top: 20px;
+    
+}
