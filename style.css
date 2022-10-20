@@ -28,22 +28,61 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 25%;
     
 }
 .box{
     margin: 10px;
-    width: 400px;
+    width: 410px;
     height: 330px;
     align-items: center;
     justify-content: center;
     text-align: center;
     border: 1px solid white;
-    
+
 
 }
 img{
-    width: 200px;
+    width: 210px;
     height: 250px;
     display: flex;
+
     
+}
+#title{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.cover p,h3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+    color: white;
+}
+.cover p{
+    color: lightgrey;
+}
+.hiring{
+    display: flex;
+    text-align: center;
+    
+}
+
+.h4{
+    width: 180px;
+  padding: 10px;
+  border: 1px solid aquamarine;
+  margin: 0;
+  text-align: center;
+  color: aquamarine;
+  margin-left: 45%;
+  margin-top: 25px;
+}
+.paragraph{
+    color: white;
+    text-align: center;
+    padding-top: 1% ;
 }
