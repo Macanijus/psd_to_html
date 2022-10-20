@@ -144,37 +144,3 @@ li {
   font-size: 25px;
   font-weight: lighter;
 }
-
-.container1 {
-  background-image: url(bgk-middle.png);
-  width: 1500px;
-  height: 600px;
-  display: flexbox;
-  margin-left: 100px;
-  margin-right: 100px;
-  position: relative;
-  top: -1970px;
-  right: 100px;
-}
-
-.logo2 {
-  position: relative;
-  bottom: 2360px;
-  left: 650px;
-  display: inline-block;
-  height: 120px;
-  width: 180px;
-}
-
-.watch {
-  position: relative;
-  bottom: 2360px;
-  left: 665px;
-  color: white;
-  height: 120px;
-  width: 180px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-weight: lighter;
-  font-size: 18px;
-}
