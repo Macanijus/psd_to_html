@@ -57,8 +57,9 @@ h3{
     align-items: center;
     justify-content: center;
     text-align: center;
-    align-content:space-around;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
 }
 .cover2 {
     width:800px;
