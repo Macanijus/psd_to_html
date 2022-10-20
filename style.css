@@ -100,7 +100,6 @@ p {
     margin: 0;
     font-size: 20px;
     border-radius: 0;
-    -webkit-appearance: none;
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
