@@ -154,9 +154,9 @@ li {
   -o-background-size: cover;
   background-size: cover;
   display: flexbox;
-  justify-content: flex-end;
+
   position: relative;
-  flex-direction: column;
+  flex-direction: row;
   bottom: 2000px;
 }
 .watch h2 {
@@ -173,4 +173,73 @@ li {
   transform: translate(-50%, -50%);
   width: 200px;
   height: 200px;
+}
+
+.expertise p {
+  padding-bottom: 15px;
+  position: relative;
+  text-align: center;
+  padding-top: 25px;
+}
+.expertise {
+  background-color: white;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 50px;
+  position: relative;
+  bottom: 2000px;
+}
+.underline::after {
+  content: "";
+  height: 2px;
+  width: 7%;
+  background: #808080;
+  position: absolute;
+  left: 46.3%;
+  bottom: 0;
+  margin-top: 50px;
+}
+.cover {
+  width: 800px;
+  height: 150px;
+  margin-top: 60px;
+  display: flex;
+  margin-left: 300px;
+  bottom: 50px;
+  position: relative;
+}
+.cover p {
+  font-size: small;
+  color: #808080;
+}
+h3 {
+  padding-top: 20px;
+}
+.box {
+  width: 300px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.cover2 {
+  width: 800px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+  border: 2px solid lightgrey;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin-left: 300px;
+  justify-content: center;
+  bottom: 50px;
+  display: flexbox;
+  position: relative;
+}
+.cover2 p {
+  font-size: small;
+  color: #808080;
 }
