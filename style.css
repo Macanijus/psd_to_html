@@ -1,5 +1,6 @@
 /* Footer content */
 
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -21,24 +22,20 @@ footer {
 
 .column {
     display: flex;
-    justify-content: flex-start;
     align-items: baseline;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 
 .about,
 .links,
 .subscribe {
-    display: flex;
     flex-direction: column;
 }
 
 h1 {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
     line-height: 26.4px;
 }
 
@@ -55,7 +52,7 @@ p {
     text-decoration: none;
     font-weight: lighter;
     font: 20px Arial, sans-serif;
-    color: #92bdca;
+    color: #3b6d7d;
     list-style: none;
 }
 
@@ -67,9 +64,10 @@ p {
 
 #footer-address {
     list-style: none;
+    text-align: justify;
 }
 
-h3 {
+.head {
     margin-bottom: 20px;
 }
 
@@ -91,15 +89,21 @@ h3 {
     margin: auto;
 }
 
-input {
-    cursor: text;
-    background-color: field;
-    margin: 0em;
-    padding: 10px 2px;
-    border-width: 2px;
-    border-style: inset;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-    border-image: initial;
+.news {
+    background-color: transparent;
+}
+
+.news,
+.news1 {
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 0;
+    font-size: 20px;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 .footer-nav ul li a {
