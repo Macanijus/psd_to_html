@@ -51,6 +51,7 @@
   .line {
     border-color: aqua;
     width: 50px;
+    left: 300px;
   }
   
   .logo {
@@ -158,23 +159,21 @@
     position: relative;
     flex-direction: row;
     bottom: 2000px;
-
   }
-  .watch img{
+  .watch img {
     width: 100px;
     height: 100px;
   }
-  .watch h2 {
-    padding-top: 250px;
+  .watch h3 {
+    padding-top: 215px;
     padding-bottom: 300px;
     text-align: center;
     color: white;
-    
   }
   .play-button {
     display: block;
     position: relative;
-    top: 50%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 200px;
@@ -182,44 +181,54 @@
   }
   
   .expertise p {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     position: relative;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 0px;
   }
+  
+  
+  
+  
   .expertise {
     background-color: white;
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10px;
     position: relative;
-    bottom: 2000px;
+    bottom: 2100px;
   }
+  
   .underline::after {
     content: "";
     height: 2px;
-    width: 7%;
+    width: 4%;
     background: #808080;
     position: absolute;
-    left: 46.3%;
+    left: 48.5%;
     bottom: 0;
-    margin-top: 50px;
+    padding: 0;
+    margin-top: 10px;
   }
   .cover {
     width: 800px;
-    height: 150px;
+    height: 100px;
     margin-top: 100px;
     display: flex;
-    margin-left: 350px;
+    margin-right: 500px;
     bottom: 50px;
     position: relative;
+    justify-content: center;
+    flex-direction: row;
   }
+  
   .cover p {
     font-size: small;
     color: #808080;
   }
   h3 {
     padding-top: 20px;
+    
   }
   .box {
     width: 300px;
@@ -228,6 +237,26 @@
     justify-content: center;
     text-align: center;
     margin-top: 30px;
+
+    
+  }
+  .cover4{
+    width: 800px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 350px;
+    margin-left: 350px;
+    justify-content: center;
+    bottom: 280px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  .cover4 p{
+    color: #808080;
+    font-size: small  ;
   }
   .cover2 {
     width: 800px;
@@ -237,13 +266,297 @@
     margin-top: 90px;
     margin-left: 350px;
     justify-content: center;
-    bottom: 50px;
+    bottom: 280px;
     display: flexbox;
     position: relative;
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .cover2 p {
     font-size: small;
     color: #808080;
   }
   
+  /* This is the new code */
+  
+  .team-section {
+    background: url(./assets/bgk-header.png) no-repeat center;
+    height: 700px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    bottom: 2200px;
+  }
+  .cover {
+    width: 800px;
+    height: 400px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+  }
+  .box {
+    margin: 10px;
+    width: 410px;
+    height: 330px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid white;
+  }
+  .img2 {
+    width: 210px;
+    height: 250px;
+    display: flex;
+  }
+  #title {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .cover h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 1px;
+  }
+  .cover p {
+    color: #808080;
+    
+  }
+  .team{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .hiring {
+    display: flex;
+    text-align: center;
+  }
+  
+  .h4 {
+    width: 180px;
+    padding: 8px;
+    border: 1px solid aquamarine;
+    text-align: center;
+    color: aquamarine;
+    margin-left: 43%;
+    
+  }
+  .paragraph {
+    color: white;
+    text-align: center;
+  }
+  .paragraph::after {
+    content: "";
+    height: 2px;
+    width: 3%;
+    position: absolute;
+    background: lightgray;
+    left: 48%;
+    margin-top: 6px;
+  }
+  
+  /* This is the new code */
+  
+  .content-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    margin-top: 0px;
+    bottom: 2150px;
+  }
+  
+  .content {
+    margin-left: 200px;
+  }
+  
+  .client {
+    margin-right: 200px;
+  }
+  
+  .logo3 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    width: -webkit-fill-available;
+  }
+  
+  .client-logo {
+    margin: 20px 10px;
+    padding: 20px 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    color: #45a049;
+    padding: 12px 20px;
+    border: 1px solid #45a049;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #32631a;
+    color: white;
+  }
+  
+  .good,
+  .happy {
+    display: flexbox;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    position: relative;
+    bottom: 30px;
+    color: black;
+    font-size: 25px;
+    justify-content: left;
+    padding-bottom: 0px;
+  }
+  
+  /* this is new code */
+  
+  footer {
+    position: relative;
+    background-image: url("./assets/bgk-footer.png");
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    bottom: 2100px;
+    display: flexbox;
+  }
+  
+  .column {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+  }
+  
+  .about,
+  .links,
+  .subscribe {
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    line-height: 26.4px;
+  }
+  
+  .logo4,
+  p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about ul li {
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: none;
+    font-weight: lighter;
+    font: 20px Arial, sans-serif;
+    color: #3b6d7d;
+    list-style: none;
+  }
+  
+  #map-icon img,
+  #phone-icon img {
+    margin: 0 5px;
+    padding: 0 5px;
+  }
+  
+  #footer-address {
+    list-style: none;
+    text-align: justify;
+  }
+  
+  .head {
+    margin-bottom: 20px;
+  }
+  
+  .social-wrapper ul li {
+    margin: 0 5px 0 1px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem 0 3rem 0;
+  }
+  
+  .socials ul li {
+    margin: auto;
+  }
+  
+  .news {
+    background-color: transparent;
+  }
+  
+  .news,
+  .news1 {
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 0;
+    font-size: 20px;
+    border-radius: 0;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+  
+  .footer-nav ul li a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .footer-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    flex: auto;
+    justify-content: space-around;
+  }
