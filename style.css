@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   background-image: url(./assets/back.png);
   width: 1501px;
@@ -42,8 +47,8 @@ li {
   font-size: 14px;
   text-align: center;
   padding-left: 380px;
-  padding-right: 380px;
-  padding-top: 10px;
+  padding-right: 0px;
+
   padding-bottom: 500px;
   margin-bottom: 600px;
 }
@@ -51,6 +56,8 @@ li {
 .line {
   border-color: aqua;
   width: 50px;
+  left: 300px;
+  margin: 20px auto;
 }
 
 .logo {
@@ -185,13 +192,22 @@ li {
   text-align: center;
   padding-top: 25px;
 }
+
+.phone {
+  padding-right: 250px;
+  padding-left: 80px;
+}
+
+.lorem {
+  padding-right: 100px;
+}
 .expertise {
   background-color: white;
   margin-top: 50px;
   text-align: center;
   padding-top: 50px;
   position: relative;
-  bottom: 2000px;
+  bottom: 2100px;
 }
 .underline::after {
   content: "";
@@ -207,10 +223,12 @@ li {
   width: 800px;
   height: 150px;
   margin-top: 100px;
-  display: flex;
-  margin-left: 350px;
+  display: flexbox;
+  margin-right: 500px;
   bottom: 50px;
   position: relative;
+  justify-content: center;
+  flex-direction: row;
 }
 .cover p {
   font-size: small;
@@ -235,7 +253,7 @@ h3 {
   margin-top: 90px;
   margin-left: 350px;
   justify-content: center;
-  bottom: 50px;
+  bottom: 280px;
   display: flexbox;
   position: relative;
   padding-top: 50px;
@@ -243,4 +261,284 @@ h3 {
 .cover2 p {
   font-size: small;
   color: #808080;
+}
+
+/* This is the new code */
+
+.team-section {
+  background: url(./assets/bgk-header.png) no-repeat center;
+  height: 700px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  bottom: 2200px;
+}
+.cover {
+  width: 900px;
+  height: 400px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+}
+.box {
+  margin: 10px;
+  width: 410px;
+  height: 330px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid white;
+}
+.img2 {
+  width: 210px;
+  height: 250px;
+  display: flex;
+}
+#title {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.cover p,
+h3 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 9px;
+  color: white;
+}
+.cover p {
+  color: lightgrey;
+}
+.hiring {
+  display: flex;
+  text-align: center;
+}
+
+.h4 {
+  width: 180px;
+  padding: 10px;
+  border: 1px solid aquamarine;
+  margin: 0;
+  text-align: center;
+  color: aquamarine;
+  margin-left: 45%;
+  margin-top: 25px;
+}
+.paragraph {
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+}
+.paragraph::after {
+  content: "";
+  height: 2px;
+  width: 3%;
+  position: absolute;
+  background: lightgray;
+  left: 48%;
+  margin-top: 20px;
+}
+
+/* This is the new code */
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  margin-top: 0px;
+  bottom: 2150px;
+}
+
+.content {
+  margin-left: 200px;
+}
+
+.client {
+  margin-right: 200px;
+}
+
+.logo3 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  width: -webkit-fill-available;
+}
+
+.client-logo {
+  margin: 20px 10px;
+  padding: 20px 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  color: #45a049;
+  padding: 12px 20px;
+  border: 1px solid #45a049;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0;
+}
+
+input[type="submit"]:hover {
+  background-color: #32631a;
+  color: white;
+}
+
+.good,
+.happy {
+  display: flexbox;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  position: relative;
+  bottom: 30px;
+  color: black;
+  font-size: 25px;
+  justify-content: left;
+  padding-bottom: 0px;
+}
+
+/* this is new code */
+
+footer {
+  position: relative;
+  background-image: url("./assets/bgk-footer.png");
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  bottom: 2100px;
+  display: flexbox;
+}
+
+.column {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+}
+
+.about,
+.links,
+.subscribe {
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 26.4px;
+}
+
+.logo4,
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about ul li {
+  float: left;
+  text-align: center;
+  padding-top: 50px;
+  text-decoration: none;
+  font-weight: lighter;
+  font: 20px Arial, sans-serif;
+  color: #3b6d7d;
+  list-style: none;
+}
+
+#map-icon img,
+#phone-icon img {
+  margin: 0 5px;
+  padding: 0 5px;
+}
+
+#footer-address {
+  list-style: none;
+  text-align: justify;
+}
+
+.head {
+  margin-bottom: 20px;
+}
+
+.social-wrapper ul li {
+  margin: 0 5px 0 1px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials ul li {
+  margin: auto;
+}
+
+.news {
+  background-color: transparent;
+}
+
+.news,
+.news1 {
+  display: inline-block;
+  padding: 5px 15px;
+  margin: 0;
+  font-size: 20px;
+  border-radius: 0;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.footer-nav ul li a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+}
+
+.footer-nav ul {
+  list-style: none;
+  flex: auto;
+  justify-content: space-around;
 }
